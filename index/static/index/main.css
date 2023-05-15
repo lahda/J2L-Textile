@@ -1,0 +1,29 @@
+.home-navbar {
+    height: 75px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #FFBF00 !important;
+    border-color: #FFBF00 !important;
+}
+
+.btn-outline-primary,
+.btn-outline-primary:active,
+.btn-outline-primary:visited,
+.btn-outline-primary:focus {
+    border-color: #FFBF00 !important;
+    color: #FFBF00 !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #FFBF00 !important;
+    color: #ffffff !important;
+}
+
+.bg-primary {
+    background-color: #FFBF00 !important;
+}

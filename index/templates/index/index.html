@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}accueil{% endblock title %}
+
+{% block content %}
+<div class="row mt-5 h-100">
+    <div class="col">
+        <h1>Imprimez à petit prix</h1>
+        <p>
+            Imprimez vos documents en ligne et récupérez les dans votre magasin préféré, 
+            Vous pouvez aussi faire imprimer vos photos en ligne
+        </p>
+        <button class="btn btn-dark">Commencez</button>
+    </div>
+    <div class="col">
+        <img src="{% static 'imgs/imprimerie.jpg' %}" alt="printer" class="img-fluid">
+    </div>
+</div>
+{% endblock content %}
